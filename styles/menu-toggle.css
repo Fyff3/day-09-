@@ -10,7 +10,10 @@
     transition: height .5s ease; */
 
     /* Option #3 */
-    
+    position:fixed;
+    left:-100%;
+    top: 3rem;
+    transition: left .5s ease;
 }
 
 #main-nav-list.toggled {
@@ -21,6 +24,7 @@
     /* height: 100vh; */
 
     /* Option #3 - Toggled */
+    left: 0;
     
 }
 
